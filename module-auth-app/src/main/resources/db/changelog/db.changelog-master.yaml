@@ -1,0 +1,14 @@
+---
+databaseChangeLog:
+  - include:
+      file: user.sql
+      relativeToChangelogFile: true
+  - include:
+      file: session.sql
+      relativeToChangelogFile: true
+  - include:
+      file: station.sql
+      relativeToChangelogFile: true
+  - include:
+      file: order.sql
+      relativeToChangelogFile: true
